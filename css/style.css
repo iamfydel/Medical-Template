@@ -318,3 +318,74 @@ footer .footer-social {
     margin-top: 5px;
 }
 
+.checkbtn {
+    font-size: 30px;
+    color: #0052FF;
+    float: right;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+ @media(max-width: 900px) {
+ .checkbtn {
+     display: block;
+ }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #FEFEFE;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+    a.hover, a.active {
+        color: #0052FF;
+    }
+    #check:checked ~ ul{
+        left: 0;
+
+    }
+    #showcase-1 .showcase-1-text {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #showcase-1 .showcase-1-image {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+
+    #showcase-3 .showcase-3-text {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #showcase-3 .showcase-3-image {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    
+ }
