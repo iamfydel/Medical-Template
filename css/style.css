@@ -397,6 +397,34 @@ footer .footer-social {
         width: 275px;
         height: 245px;
     }
+
+    #showcase-4 .showcase-4-box .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #showcase-5 .showcase-5-text {
+        width: 100%;
+        float: none;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #showcase-5 .showcase-5-form {
+        margin-top: 100px;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    #showcase-7 .bx {
+        float: none;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
     
     
  }
