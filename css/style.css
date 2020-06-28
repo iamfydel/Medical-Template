@@ -400,9 +400,7 @@ footer .footer-social {
 
     #showcase-4 .showcase-4-box .box{
         float: none;
-        width: 100%;
-        text-align: center;
-        padding: 15px;
+        width: 90%;
     }
 
     #showcase-5 .showcase-5-text {
@@ -416,7 +414,6 @@ footer .footer-social {
         margin-top: 100px;
         width: 100%;
         float: none;
-        text-align: center;
     }
 
     #showcase-7 .bx {
@@ -426,5 +423,12 @@ footer .footer-social {
         text-align: center;
     }
     
+    #showcase-5 .showcase-5-form input[type="text"], #showcase-5 .showcase-5-form input[type="email"], #showcase-5 .showcase-5-form input[type="number"], #showcase-5 .showcase-5-form input[type="dropdown"], #showcase-5 .showcase-5-form input[type="date"], #showcase-5 .showcase-5-form input[type="time"] {
+        height: 20px;
+        width: 250px;
+        padding: 10px 20px;
+        border: 1px solid #5B5B5B;
+        margin: 5px 0;
+    }
     
  }
