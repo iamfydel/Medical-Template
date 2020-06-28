@@ -1,0 +1,320 @@
+body {
+    font-family: 'Muli', sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color:#FEFEFE;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    box-shadow: 2px 6px 10px rgba(229, 229, 229, 0.37);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #5B5B5B;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #0052FF;
+}
+
+#showcase-1 {
+ 
+}
+
+#showcase-1 .showcase-1-text {
+    width: 45%;
+    float: left;
+    margin-top: 160px;
+}
+
+#showcase-1 .showcase-1-text h1 {
+    font-size: 38px;
+    color: #202020;
+    margin: 0;
+}
+
+#showcase-1 .showcase-1-text p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #5B5B5B;
+}
+
+#showcase-1 .showcase-1-text .button-1 {
+    height: 50px;
+    background: #0052FF;
+    border: 0;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+#showcase-1 .showcase-1-text .button-2 {
+    height: 50px;
+    background: #FEFEFE;
+    border: 1px solid #0052FF;
+    padding: 15px 30px;
+    color: #0052FF;
+    margin-top: 30px;
+}
+
+#showcase-1 .showcase-1-image {
+    margin-top: 70px;
+    width: 45%;
+    float: right;
+}
+
+#showcase-1 .showcase-1-image img {
+    width: 450px;
+    height: 498px;
+}
+
+#showcase-2 {
+    
+    text-align: center;
+}
+
+#showcase-2 h1 {
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #202020;
+}
+
+#showcase-2 p {
+    font-size: 16px;
+    color: #5B5B5B;
+    margin: auto;
+    width: 50%
+}
+
+#showcase-2 button {
+    height: 50px;
+    background: #FEFEFE;
+    border: 1px solid #0052FF;
+    padding: 15px 30px;
+    color: #0052FF;
+    margin-top: 30px;
+}
+
+#showcase-3 {
+    
+}
+
+#showcase-3 .showcase-3-text {
+    width: 45%;
+    float: right;
+    margin-top: 100px;
+}
+
+#showcase-3 .showcase-3-text h1 {
+    font-size: 30px;
+    color: #202020;
+}
+
+#showcase-3 .showcase-3-text input {
+    margin: 7px 0;
+}
+#showcase-3 .showcase-3-image {
+    margin-top: 70px;
+    width: 45%;
+    float: left;
+}
+
+#showcase-3 .showcase-3-image img {
+    width: 450px;
+    height: 498px;
+}
+
+#showcase-4 {
+    margin-top: 100px;
+    background: #F9F9F9;
+    text-align: center;
+}
+
+#showcase-4 .showcase-4-text {
+    text-align: center;
+}
+
+#showcase-4 .showcase-4-text h1 {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+#showcase-4 .showcase-4-box {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+#showcase-4 .showcase-4-box .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+}
+
+#showcase-4 .showcase-4-box .box .p-1 {
+    color: #5B5B5B;
+}
+#showcase-4 .showcase-4-box .box .p-2 {
+    color: #202020;
+}
+
+#showcase-5 {
+
+}
+
+#showcase-5 .showcase-5-text {
+    width: 45%;
+    float: left;
+    margin-top: 100px;
+}
+
+#showcase-5 .showcase-5-text h1 {
+    margin: 0;
+    color: #202020;
+}
+
+#showcase-5 .showcase-5-text .p-3 {
+    color: #5B5B5B;
+}
+
+#showcase-5 .showcase-5-text .p-4 {
+    color: #202020;
+    font-weight: 600;
+}
+
+
+#showcase-5 .showcase-5-form {
+    margin-top: 100px;
+    width: 45%;
+    float: right;
+}
+
+#showcase-5 .showcase-5-form input[type="text"], #showcase-5 .showcase-5-form input[type="email"], #showcase-5 .showcase-5-form input[type="number"], #showcase-5 .showcase-5-form input[type="dropdown"], #showcase-5 .showcase-5-form input[type="date"], #showcase-5 .showcase-5-form input[type="time"] {
+    height: 20px;
+    width: 350px;
+    padding: 10px 20px;
+    border: 1px solid #5B5B5B;
+    margin: 5px 0;
+}
+
+#showcase-5 .showcase-5-form input[type="submit"] {
+    height: 50px;
+    background: #0052FF;
+    border: 0;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+#showcase-6 {
+    text-align: center;
+    background: #F9F9F9;
+    margin-top: 100px;
+}
+
+#showcase-6 h1 {
+    margin-top: 70px;
+    color: #202020;
+}
+
+
+#showcase-6 .showcase-6-form input[type="email"] {
+    height: 25px;
+    width: 450px;
+    padding: 10px;
+}
+
+#showcase-6 .showcase-6-form input[type="submit"] {
+    height: 45px;
+    background: #FEFEFE;
+    border: 1px solid #0052FF;
+    padding: 15px 30px;
+    color: #0052FF;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#showcase-7 .bx {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+#showcase-7 .showcase-7-text h2 span {
+    color: #0052FF;
+}
+
+#showcase-7 .showcase-7-text h2 {
+    margin-top: 100px;
+}
+
+#showcase-7 .showcase-7-text p {
+    margin-top: 30px;
+    color: #5B5B5B;
+    padding-right: 30px;
+}
+
+#showcase-7 .showcase-7-image h4 {
+    margin-top: 100px;
+}
+
+#showcase-7 .showcase-7-contact h4 {
+    margin-top: 100px;
+}
+
+footer {
+    background: #0052FF;
+    color: #fff;
+}
+
+footer .footer-text {
+    float: left;
+}
+
+footer .footer-social {
+    float: right;
+    padding: 10px;
+    margin-top: 5px;
+}
+
