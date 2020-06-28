@@ -376,6 +376,11 @@ footer .footer-social {
         width: 100%;
     }
 
+    #showcase-1 .showcase-1-image img {
+        width: 275px;
+        height: 245px;
+    }
+
     #showcase-3 .showcase-3-text {
         float: none;
         text-align: center;
@@ -387,5 +392,11 @@ footer .footer-social {
         float: none;
         width: 100%;
     }
+
+    #showcase-3 .showcase-3-image img {
+        width: 275px;
+        height: 245px;
+    }
+    
     
  }
