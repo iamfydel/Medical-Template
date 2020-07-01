@@ -2,223 +2,348 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <title>DentLab</title>
     <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/6dee2ca888.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">Dent</span>lab</h1>
-            </div>
+<body data-spy="scroll" data-target="#collapsibleNavId" data-offset="150">
 
-            <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
-            <nav>
-                <ul>
-                    <li class="current"><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Sevices</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact us</a></li>
+
+    <header class="container-fluid mt-5" id="home">
+
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navigation" style="background-color: #fefefe;">
+            <a class="navbar-brand" href="#"><img src="images/Dentlab.svg" alt=""></a>
+
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation"> <img src="images/Vector.svg" alt=""></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active ml-md-4" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-md-4" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-md-4" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-md-4" href="#pages">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-md-4" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-md-4" href="#blog">Blog</a>
+                    </li>
+                    
+                    
                 </ul>
-            </nav>
-        </div>
-    </header>
-        <section id="showcase-1">
-            <div class="container">
-                <div class="showcase-1-text">
-                    <h1>Enjoy a healthy dental life</h1>
-                    <p>Dedicated to providing the best experience for your teeth with our renowned expertise and advanced care</p>
-                    <button class="button-1">Book an appointment</button>
-                    <button class="button-2">Learn more</button>
-                </div>
-                <div class="showcase-1-image">
-                    <img src="images/image-1.png" alt="Dentist">
-                </div>
-        </div>
-        </section>
-
-        <section id="showcase-2">
-            <div class="container">
-                    <h1>Who we are</h1>
-                    <p>The one-stop dental studio known around the world for our excellence in providing the best care and treatments for your teeth and general dental lifestyle. Dentlab is here to serve you to the fullest with our in-house effective team and top-notch facilities in place</p>
-                    <button class="button-3">More about us</button>
             </div>
-        </section>
-
-        <section id="showcase-3">
-            <div class="container">
-                <div class="showcase-3-image">
-                    <img src="images/image-2.png" alt="dentist">
-                </div>
-                <div class="showcase-3-text">
-                    <h1>Our Services</h1>
-                    <input type="checkbox" id="Service1" name="Service1" value="Teeth-whitening">
-                    <label for="Service1"> Teeth whitening</label><br>
-                    <input type="checkbox" id="Service2" name="Service2" value="Braces-fix">
-                    <label for="Service2"> Braces fix</label><br>
-                    <input type="checkbox" id="Service3" name="Service3" value="Cavity-filing">
-                    <label for="Service3"> Cavity filing</label><br>
-                    <input type="checkbox" id="Service4" name="Service4" value="Dental-bridges">
-                    <label for="Service4"> Dental bridges</label><br>
-                    <input type="checkbox" id="Service5" name="Service5" value="Preventive-dental-care">
-                    <label for="Service5"> Preventive dental care</label><br>
-                    <input type="checkbox" id="Service6" name="Service6" value="Tooth-re-shaping">
-                    <label for="Service6"> Tooth re-shaping</label><br>
-                    <input type="checkbox" id="Service7" name="Service7" value="Veneers">
-                    <label for="Service7"> Veneers</label><br>
-                    <input type="checkbox" id="Service8" name="Service8" value="Dental-cosmetics">
-                    <label for="Service8"> Dental cosmetics</label><br>
-                    <input type="checkbox" id="Service9" name="Service9" value="Teeth-repair">
-                    <label for="Service9"> Teeth repair</label><br>
-                    <input type="checkbox" id="Service10" name="Service10" value="Contouring">
-                    <label for="Service10"> Contouring</label><br>
-                    <input type="checkbox" id="Service11" name="Service11" value="Root-treatment">
-                    <label for="Service11"> Root treatment</label><br>
-                </div>
-            </div>
-        </section>
-
-        <section id="showcase-4">
-            <div class="container">
-                <div class="showcase-4-text">
-                    <h1>What people are saying</h1>
-                </div>
-                <div class="showcase-4-box">
-                    <div class="box">
-                        <img src="images/image-3.png" alt="quote-image">
-                        <p class="p-1">You guys brought back my confidence with your teeth whitening, I no longer hide my smile</p>
-                        <p class="p-2">- Nelson Chase</p>
-                    </div>
-                    <div class="box">
-                        <img src="images/image-3.png" alt="quote-image">
-                        <p class="p-1">You guys brought back my confidence with your teeth whitening, I no longer hide my smile</p>
-                        <p class="p-2">- Brooke Brown</p>
-                    </div>
-                    <div class="box">
-                        <img src="images/image-3.png" alt="quote-image">
-                        <p class="p-1">You guys brought back my confidence with your teeth whitening, I no longer hide my smile</p>
-                        <p class="p-2">- Nina Dorbell</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="showcase-5">
-            <div class="container">
-                <div class="showcase-5-text">
-                    <h1>Book an appointment</h1>
-                    <p class="p-3">Kindly fill the form and take note of our opening hours below. You will receive a reply within 3 hours of submitting.</p>
-                    <p class="p-4">Mondays - Fridays</p>
-                    <p class="p-3">8:00 am - 7:00 pm</p>
-                    <p class="p-4">Saturdays</p>
-                    <p class="p-3">10:00 am - 5:00 pm</p>
-                    <p class="p-4">Sundays</p>
-                    <p class="p-3">11:00 am - 4:00 pm</p>
-                </div>
-                <div class="showcase-5-form">
-                    <form action="#">
-                        <label class="p-4" for="fname">Full Name</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="Yara Johnson"><br>
-                        <label class="p-4" for="mail">Email Address</label><br>
-                        <input type="email" id="mail" name="mail"><br>
-                        <label class="p-4" for="pnumber">Phone number</label><br>
-                        <input type="number" id="pnumber" name="pnumber"><br>
-                        <label class="p-4" for="reason">Reason for appointment</label><br>
-                        <input type="dropdown" id="reason" name="reason"><br>
-                        <label class="p-4" for="date">Date</label><br>
-                        <input type="date" id="date" name="date"><br>
-                        <label class="p-4" for="time">Time</label><br>
-                        <input type="time" id="time" name="time"><br>
-                        <input type="submit" value="Book appointment">
-                        
-                      </form> 
-                </div>
-            </div>
-        </section>
-
-        <section id="showcase-6">
-            <div class="container">
-                <div class="showcase-6-text">
-                    <h1>Subscribe to our newsletter</h1>
-                </div>
-                <div class="showcase-6-form">
-                    <form action="">
-                        <input type="email" placeholder="Enter your email address"><br>
-                        <input type="submit" value="Subscribe">
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <section id="showcase-7">
-            <div class="container">
-                <div class="bx">
-                <div class="showcase-7-text">
-                    <h2><span>Dent</span>lab</h2>
-                    <p>The one-stop dental studio known around the world for our excellence in providing the best care and treatments for your teeth and general dental lifestyle</p>
-                </div>
-            </div>
-            <div class="bx">
-                <div class="showcase-7-image">
-                    <h4>Latest blog post</h4>
-                    <div class="bo">
-                    <div class="bo1">
-                    <div class="image-1">
-                         <a href=""><img src="images/image-4.png" alt=""></a>
-                    </div>
-                    </div>
-                    <div class="bo1">
-                    <div class="text-1">
-                        <p><a href="#">Eating the right Meal for your teeth</a></p>
-                        <p>26/06/2020</p>
-                    </div>
-                </div>
-            </div>
-                    <div class="image-2">
-                        <a href=""><img src="images/image-5.png" alt=""></a>
-                    </div>
-                    <div class="text-2">
-                        <p><a href="#">How to Maintain a Healthy tooth</a></p>
-                        <p>26/06/2020</p>
-                    </div>
-                    <div class="image-3">
-                        <a href=""><img src="images/image-6.png" alt=""></a>
-                    </div>
-                    <div class="text-3">
-                        <p><a href="#">Take care of your Tooth Brush</a></p>
-                        <p>26/06/2020</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bx">
-                <div class="showcase-7-contact">
-                    <h4>Contact us</h4>
-                    <p> <img src="images/image-7.png" alt=""> 2278 Oak Street, New York</p>
-                    <p> <img src="images/image-8.png" alt=""> 315-396-5325</p>
-                    <p><i class="fas fa-envelope"></i> hello@dentlab.com</p>
-                </div>
-            </div>
-            </div>
-        </section>
-        <footer>
-            <div class="container">
-                <div class="footer-text">
-                    <p> &copy; 2020 Zuri</p>
-                </div>
-                <div class="footer-social">
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                </div>
-            </div>
-        </footer>
+        </nav>
         
+        <div class="row offset cont py-3">
+            <div class="col-md-6 d-flex flex-column justify-content-center my-5">
+                <h1>Enjoy a health dental life</h1>
+                <p class="my-2">
+                    Dedicated to providing the best experience for your teeth
+                    with our renowned expertise and advanced care.
+                </p>
+                <div class="mb-3">
+                    <button class="btn btn-primary mr-1 mt-1 d-lg-inline-block d-block mb-2">Book an appointment</button>
+                    <button class="btn btn-outline-primary mt-1 mb-2 my-1">Learn more</button>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-lg-end justify-content-center pr-lg-4">
+                <div class="img-border my-lg-4 my-md-3 my-sm-1" >
+                    
+                </div>
+            </div>
+        </div>
+    
+    </header>
+
+    
+    <section class="container-fluid offset py-5 my-5" id="about">
+        <div class="row mx-auto text-center box-in">
+            <h2 class="mx-auto my-2">Who we are</h2>
+            <p class="my-3" >
+                The one-stop medical studio known around the world for our excellence in providing 
+                the best care and treatments for your teeth and general dental lifestyle. Dentlab is 
+                here to serve you to the fullest with our in-house effective team and top-notch facilities in place.
+            </p>
+            <button class="btn btn-outline-primary mx-auto my-2"> More about Us </button>
+        </div>
+    </section>
+
+
+
+    <section class="container-fluid offset py-2" id="services">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center my-4 align-items-lg-start align-items-center">
+                <div class="img-border2 my-lg-4 my-md-3 my-sm-1" >
+                
+                </div>
+                
+            </div>
+
+            <div class="col-md-6 d-flex flex-column justify-content-center my-4">
+               
+                <div class="row my-1">
+                    <div class="col-12">
+                        <h2 class="my-2">Our Services</h2>
+                    </div>
+                    <div class="col-lg-7 col-sm-6">
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Teeth Whitening</small></span>
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Brace fix</small></span>
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Cavity Filling</small></span>
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Dental bridges</small></span>
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Preventive dental care</small></span>
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Tooth re-shaping</small></span>
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Veneers</small></span>
+                    </div>
+
+                    <div class="col-lg-5 col-sm-6 mt-md-0 mt-n2">
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Dental Cosmetics</small></span>
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Teeth repair</small></span>
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Contouring</small></span>
+                        <span class="d-flex my-lg-2 my-2"><img src="images/Rectangle 24.svg" class="mr-1" alt=""><small>Root treatment</small></span>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="container-fluid text-center offset" id="pages">
+        <h2 class="pt-5 pb-2">What People are saying</h2>
+        <div class="row pb-4">
+            
+            <div class="col-sm-4 py-3" >
+                
+                <img src="images/quote.svg"  class="my-3" alt="">
+                <p>
+                    You guys brought back my confidence
+                    with your teeth whitening, I no longer hide my smile.
+                </p>
+                <p><strong><em>- Nelson Chase</em></strong></p>
+                
+            </div>
+
+            <div class="col-sm-4 py-3" >
+                <img src="images/quote.svg" class="my-3" alt="">
+                <p>
+                    You guys brought back my confidence
+                    with your teeth whitening, I no longer hide my smile.
+                </p>
+                <p><strong><em>- Brooke Brown</em></strong></p>
+            </div>
+            <div class="col-sm-4 py-3" >
+                <img src="images/quote.svg" class="my-3" alt="">
+                <p>
+                    You guys brought back my confidence
+                    with your teeth whitening, I no longer hide my smile.
+                </p>
+                <p><strong><em>- Nina Dorbell</em></strong></p>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="container-fluid offset py-xs-1 p-md-5" id="contact">
+        <div class="row">
+            <div class="col-md-6 my-5">
+                <h2>Book an appointment</h2>
+                <p class="my-4">
+                    Kindly fill the form and take note of our opening hours below. 
+                    You will recieve a reply within three hours of submitting
+                </p>
+                <div class="duration my-4" >
+                    <p><strong>Mondays - Fridays</strong></p>
+                    <p>8.00 am - 7.00 pm</p>
+                </div>
+                <div class="duration my-4" >
+                    <p><strong>Saturdays</strong></p>
+                    <p>8.00 am - 7.00 pm</p>
+                </div>
+                <div class="duration my-2" >
+                    <p><strong>Sundays</strong></p>
+                    <p>8.00 am - 7.00 pm</p>
+                </div>
+                
+
+            </div>
+            <div class="col-md-6 my-5">
+                <!-- Contact Form -->
+                <form action="post" >
+                    
+                    <div class="form-group">
+                        <label for="name"><strong>Full Name</strong></label>
+                        <input type="text" name="Full Name" id="name" class="form-control form" placeholder="" aria-describedby="helpId">
+                    </div>
+                    <div class="form-group">
+                        <label for="name"><strong>Email Address</strong></label>
+                        <input type="email" name="Full Name" id="email" class="form-control form" placeholder="" aria-describedby="helpId">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="phone"><strong>Phone Number</strong></label>
+                                <input type="number" name="Full Name" id="phone" class="form-control form" placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            
+                            <div class="form-group">
+                                <label for=""><strong>Reason for appointment</strong></label>
+                                <select class="form-control form" id="select">
+                                    <option>Teeth Whitening</option>
+                                    <option>Brace fix</option>
+                                    <option>Cavity Filling</option>
+                                    <option>Dental bridges</option>
+                                    <option>Preventive dental care</option>
+                                    <option>Veneers</option>
+                                    <option>Dental Cosmetics</option>
+                                    <option>Teeth repair</option>        
+                                    <option>Cavity Filling</option>
+                                    <option>Contouring</option>
+                                    <option>Root Treatment</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name"><strong>Date</strong></label>
+                                    <input type="date" name="Full Name" id="date" class="form-control form" placeholder="" aria-describedby="helpId">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name"><strong>Time</strong></label>
+                                    <input type="time" name="Full Name" id="time" class="form-control form" placeholder="" aria-describedby="helpId">
+                                </div>
+                            </div>
+    
+                        </div>
+                    <input type="submit" class="btn btn-primary my-3" value="Book appointment">
+                </form>
+          
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="container-fluid py-3 py-sm-1">
+        <div class="content text-center">
+            <h2 class="my-5" >Subscribe to our newsletter</h2>
+            <form action="">
+                <div class="form-group pull-center" >
+                    <input type="email" class="form-control form my-3 mx-auto box-in" aria-describedby="emailHelpId" placeholder="Enter your email address">
+                    <input type="submit" class="btn btn-outline-primary my-2" value="Subscribe">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <section class="container-fluid offset py-3" id="blog">
+        <div class="row my-md-5 my-sm-5">
+            <div class="col-md-4 my-3" >
+                <img src="images/Dentlab.svg" class="mb-3 mt-1" alt="" >
+                <p class="my-3" >
+                    The one-stop medical studio known around the world for our excellence in providing 
+                    the best care and treatments for your teeth and general dental lifestyle.
+                </p>
+            </div>
+            <div class="col-md-4 my-3">
+                <p class="mb-4" ><strong>Latest blog post</strong></p>
+
+    
+
+                <div class="group d-flex my-lg-1 my-1" >
+                    <img src="images/Rectangle 20.png" class="blog-img mr-3" alt="">
+                    <div class="details">
+                        <p>Eating the right meal for your teeth</p>
+                        <p class="text-secondary">26/06/2020</p>
+                    </div>
+                </div>
+                <div class="group d-flex my-lg-1 my-1">
+                    <img src="images/Rectangle 21.png" class="blog-img mr-3" alt="">
+                    <div class="details">
+                        <p>Eating the right meal for your teeth</p>
+                        <p class="text-secondary">26/06/2020</p>
+                    </div>
+                </div>
+                <div class="group d-flex my-lg-1 my-1" >
+                    <img src="images/Rectangle 22.png" class="blog-img mr-3" alt="">
+                    <div class="details">
+                        <p>Eating the right meal for your teeth</p>
+                        <p class="text-secondary">26/06/2020</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-md-4 my-3">
+                <p class="mb-3" ><strong>Contact Us</strong></p>
+                <div class="contactgroup">
+                    <span class="my-2"><img src="images/Facebook Places.png" class="mr-2" alt=""> <small>2278 Oak Street, New York</small></span>
+                </div>
+                <div class="contactgroup" >
+                    <span class="my-2"><img src="images/phone.png" class="mr-2" alt=""><small>313-395-5325</small></span>
+                </div>
+                <div class="contactgroup" >
+                    <span class="my-2"><img src="images/email.png" class="mr-2" alt=""><small>hello@dentlab.com</small></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="container-fluid footer d-flex justify-content-between mt-3">
+        <div class="group1 pull-left py-2">
+            &copy; 2020 Zuri
+        </div>
+        <div class="group1 pull-right d-flex py-2">
+            <span>
+                <img src="images/Vector.png" class="ml-2" alt="">
+                <img src="images/Vector (2).png" class="ml-2" alt="">
+                <img src="images/Vector (1).png" class="ml-2" alt="">
+            </span>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="scripts/scripts.js"></script>
 </body>
 </html>
